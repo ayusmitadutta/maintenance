@@ -1,0 +1,54 @@
+#tabledata {
+  color: white;
+}
+
+#tablebody {
+  overflow-y: scroll;
+  max-height: 88vh;
+}
+
+#editbtn {
+  background-color: none;
+}
+
+.norecords {
+  justify-content: center;
+  color: white;
+  align-items: center;
+
+  font-size: 32px;
+
+  display: flex;
+}
+
+.tabletop {
+  background: whitesmoke;
+  position: sticky;
+  top: 0;
+  font-weight: bold;
+  padding: 25px 10px;
+  
+}
+.tablecontainer {
+  overflow-y: scroll;
+  height: 78vh;
+  overflow-x: hidden;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.table {
+  margin: 25px;
+  border-collapse: collapse;
+  font-size: 1rem;
+  min-width: 8vw;
+}
+
+@media screen and (max-width: 992px) {
+  .tabletop {
+    background: yellow;
+  }
+  .table {
+    width: 40%;
+  }
+}

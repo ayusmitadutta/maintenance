@@ -1,0 +1,73 @@
+
+
+.bg {
+ 
+  display: flex;
+  background-image: linear-gradient(
+    rgb(65, 60, 61),
+    rgb(18, 14, 15),
+    rgb(147, 128, 137)
+  );
+height: 100vh;
+  
+  background: no-repeat center cover;
+justify-content: contain;
+ 
+
+  position: relative;
+}
+
+.topbar {
+  position: absolute;
+  padding: 12px;
+  display: block;
+  width: 100%;
+}
+
+.btn-outline-light {
+  float: right;
+}
+
+h4 {
+  color: white;
+  float: left;
+}
+
+.home{
+    padding: 15px;
+    width: 100vw;
+    border: 2px solid white;
+    border-radius: 14px;
+    margin: 80px 0px 0px 80px;
+   
+    height: 88vh;
+}
+
+.home .top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.home .top input{
+  
+  width: 20%;
+}
+
+
+
+
+
+
+@media screen and  (max-width: 600px) {
+  .tabletop{
+    background: aqua;
+   }
+   .table{
+    width: 35vw;
+  }
+ 
+  .home{
+    width: 40vw;
+  }
+  
+}

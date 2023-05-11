@@ -1,0 +1,56 @@
+.register {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-image: linear-gradient(
+    rgb(65, 60, 61),
+    rgb(18, 14, 15),
+    rgb(147, 128, 137)
+  );
+  min-height: 100vh;
+}
+
+.container {
+  padding: 25px;
+  width: 30%;
+  border: 2px solid white;
+  border-radius: 14px;
+}
+
+label {
+  color: white;
+}
+
+.text-center {
+  padding: 6px;
+}
+
+.para {
+  color: white;
+  text-align: center;
+}
+
+.para .btn {
+  border: none;
+  background: none;
+  font-size: 16px;
+  padding-bottom: 12px;
+  text-decoration: underline;
+}
+
+.para .btn:hover {
+  color: grey;
+  font-size: 20px;
+}
+
+#btn {
+  font-size: 20px;
+  width: 120px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width : 576px),  (max-width : 768px) and  (max-width : 992px){
+  .container{
+    width: 80%
+  }}
